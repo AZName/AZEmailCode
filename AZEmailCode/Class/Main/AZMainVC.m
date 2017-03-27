@@ -7,7 +7,7 @@
 //
 
 #import "AZMainVC.h"
-
+#import "AZEmailMassger.h"
 @interface AZMainVC ()
 
 @end
@@ -16,7 +16,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [[AZEmailMassger standardMailMassage] loginWithUserName:@"964190389@qq.com" password:@"xafmpmdasrsqbbeb" completion:^(NSError *error) {
+        if (!error) {
+            NSLog(@"登录成功");
+        }
+    }];
+    
+    [[AZEmailMassger standardMailMassage] getMailFolderWith:^(NSError *error, NSArray *folderArray) {
+        NSLog(@"%@",folderArray);
+    }];
+    
+    [[AZEmailMassger standardMailMassage] loadListWithPageCount:0 ofFolder:@"INBOX" compention:^(NSError *error, NSArray<MCOIMAPMessage *> *messageArray) {
+        NSLog(@"-----%ld",messageArray.count);
+        
+        MCOIMAPMessage * message = messageArray.firstObject;
+        
+        
+        
+    }];
+
+    
+
 }
 
 - (void)didReceiveMemoryWarning {

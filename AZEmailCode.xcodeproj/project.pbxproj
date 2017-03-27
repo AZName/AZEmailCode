@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		145E454B3B858426DE4DFE32 /* Pods_AZEmailCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6D578E66197A3F91CC1894 /* Pods_AZEmailCode.framework */; };
 		28E0982B1E88A15600B4D66C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0982A1E88A15600B4D66C /* main.m */; };
 		28E0982E1E88A15600B4D66C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0982D1E88A15600B4D66C /* AppDelegate.m */; };
 		28E098361E88A15600B4D66C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E098351E88A15600B4D66C /* Assets.xcassets */; };
@@ -14,6 +15,10 @@
 		28E098441E88A15600B4D66C /* AZEmailCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E098431E88A15600B4D66C /* AZEmailCodeTests.m */; };
 		28E0984F1E88A15600B4D66C /* AZEmailCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0984E1E88A15600B4D66C /* AZEmailCodeUITests.m */; };
 		28E098671E88A26E00B4D66C /* AZMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E098661E88A26E00B4D66C /* AZMainVC.m */; };
+		28E0986A1E88AE0600B4D66C /* AZEmailMassger.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E098691E88AE0600B4D66C /* AZEmailMassger.m */; };
+		28E0986D1E88AE8600B4D66C /* NSString+MailFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0986C1E88AE8600B4D66C /* NSString+MailFilePath.m */; };
+		2E5C2908E608D4F1D62CEE6F /* Pods_AZEmailCodeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3701CF90873D5BF5B1229D3C /* Pods_AZEmailCodeUITests.framework */; };
+		65793A49FF374F159283D7A8 /* Pods_AZEmailCodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB32C949B258F202589D866A /* Pods_AZEmailCodeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E6D578E66197A3F91CC1894 /* Pods_AZEmailCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZEmailCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E098261E88A15600B4D66C /* AZEmailCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZEmailCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E0982A1E88A15600B4D66C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28E0982C1E88A15600B4D66C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,6 +55,18 @@
 		28E098501E88A15600B4D66C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28E098651E88A26E00B4D66C /* AZMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZMainVC.h; sourceTree = "<group>"; };
 		28E098661E88A26E00B4D66C /* AZMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZMainVC.m; sourceTree = "<group>"; };
+		28E098681E88AE0600B4D66C /* AZEmailMassger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZEmailMassger.h; sourceTree = "<group>"; };
+		28E098691E88AE0600B4D66C /* AZEmailMassger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZEmailMassger.m; sourceTree = "<group>"; };
+		28E0986B1E88AE8600B4D66C /* NSString+MailFilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MailFilePath.h"; sourceTree = "<group>"; };
+		28E0986C1E88AE8600B4D66C /* NSString+MailFilePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MailFilePath.m"; sourceTree = "<group>"; };
+		34F0D4DC7E54692E26750006 /* Pods-AZEmailCodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZEmailCodeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZEmailCodeTests/Pods-AZEmailCodeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3701CF90873D5BF5B1229D3C /* Pods_AZEmailCodeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZEmailCodeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D948256E44D8A2CDA5D636D /* Pods-AZEmailCodeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZEmailCodeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZEmailCodeUITests/Pods-AZEmailCodeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F0A1A620A7265DFDEB74637 /* Pods-AZEmailCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZEmailCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZEmailCode/Pods-AZEmailCode.debug.xcconfig"; sourceTree = "<group>"; };
+		9030E4F8A7A5A6826821F418 /* Pods-AZEmailCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZEmailCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZEmailCode/Pods-AZEmailCode.release.xcconfig"; sourceTree = "<group>"; };
+		D44963B8F6FF83AC6D0AF18A /* Pods-AZEmailCodeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZEmailCodeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZEmailCodeUITests/Pods-AZEmailCodeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DBE9F47A9500CC1826C7EC9C /* Pods-AZEmailCodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZEmailCodeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AZEmailCodeTests/Pods-AZEmailCodeTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB32C949B258F202589D866A /* Pods_AZEmailCodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZEmailCodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				145E454B3B858426DE4DFE32 /* Pods_AZEmailCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65793A49FF374F159283D7A8 /* Pods_AZEmailCodeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E5C2908E608D4F1D62CEE6F /* Pods_AZEmailCodeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				28E098421E88A15600B4D66C /* AZEmailCodeTests */,
 				28E0984D1E88A15600B4D66C /* AZEmailCodeUITests */,
 				28E098271E88A15600B4D66C /* Products */,
+				E2A9AB493DC90679EF18568C /* Pods */,
+				54100871642E1490EDA06437 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,8 +204,35 @@
 		28E098611E88A1E100B4D66C /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				28E098681E88AE0600B4D66C /* AZEmailMassger.h */,
+				28E098691E88AE0600B4D66C /* AZEmailMassger.m */,
+				28E0986B1E88AE8600B4D66C /* NSString+MailFilePath.h */,
+				28E0986C1E88AE8600B4D66C /* NSString+MailFilePath.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		54100871642E1490EDA06437 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E6D578E66197A3F91CC1894 /* Pods_AZEmailCode.framework */,
+				EB32C949B258F202589D866A /* Pods_AZEmailCodeTests.framework */,
+				3701CF90873D5BF5B1229D3C /* Pods_AZEmailCodeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2A9AB493DC90679EF18568C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F0A1A620A7265DFDEB74637 /* Pods-AZEmailCode.debug.xcconfig */,
+				9030E4F8A7A5A6826821F418 /* Pods-AZEmailCode.release.xcconfig */,
+				34F0D4DC7E54692E26750006 /* Pods-AZEmailCodeTests.debug.xcconfig */,
+				DBE9F47A9500CC1826C7EC9C /* Pods-AZEmailCodeTests.release.xcconfig */,
+				3D948256E44D8A2CDA5D636D /* Pods-AZEmailCodeUITests.debug.xcconfig */,
+				D44963B8F6FF83AC6D0AF18A /* Pods-AZEmailCodeUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28E098531E88A15600B4D66C /* Build configuration list for PBXNativeTarget "AZEmailCode" */;
 			buildPhases = (
+				CC28D90C78DBDE71C1FFADE7 /* [CP] Check Pods Manifest.lock */,
 				28E098221E88A15600B4D66C /* Sources */,
 				28E098231E88A15600B4D66C /* Frameworks */,
 				28E098241E88A15600B4D66C /* Resources */,
+				D3C896E484E1B8728A305ACD /* [CP] Embed Pods Frameworks */,
+				D3FA49FF73A38FCF4709EED8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28E098561E88A15600B4D66C /* Build configuration list for PBXNativeTarget "AZEmailCodeTests" */;
 			buildPhases = (
+				A1101F31B29A3132C3A3AE41 /* [CP] Check Pods Manifest.lock */,
 				28E0983B1E88A15600B4D66C /* Sources */,
 				28E0983C1E88A15600B4D66C /* Frameworks */,
 				28E0983D1E88A15600B4D66C /* Resources */,
+				5CE04040DF8F5CF1A3D0D723 /* [CP] Embed Pods Frameworks */,
+				3D1A5537620D7DA0CA122A9A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28E098591E88A15600B4D66C /* Build configuration list for PBXNativeTarget "AZEmailCodeUITests" */;
 			buildPhases = (
+				BADA9B4A45EC17FD6398B537 /* [CP] Check Pods Manifest.lock */,
 				28E098461E88A15600B4D66C /* Sources */,
 				28E098471E88A15600B4D66C /* Frameworks */,
 				28E098481E88A15600B4D66C /* Resources */,
+				621CC482FF25AE32D732FCDA /* [CP] Embed Pods Frameworks */,
+				DCC5FA195F4B3745A25FD742 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -312,12 +371,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D1A5537620D7DA0CA122A9A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AZEmailCodeTests/Pods-AZEmailCodeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CE04040DF8F5CF1A3D0D723 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AZEmailCodeTests/Pods-AZEmailCodeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		621CC482FF25AE32D732FCDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AZEmailCodeUITests/Pods-AZEmailCodeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1101F31B29A3132C3A3AE41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BADA9B4A45EC17FD6398B537 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC28D90C78DBDE71C1FFADE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C896E484E1B8728A305ACD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AZEmailCode/Pods-AZEmailCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3FA49FF73A38FCF4709EED8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AZEmailCode/Pods-AZEmailCode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC5FA195F4B3745A25FD742 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AZEmailCodeUITests/Pods-AZEmailCodeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		28E098221E88A15600B4D66C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28E0986A1E88AE0600B4D66C /* AZEmailMassger.m in Sources */,
 				28E0982E1E88A15600B4D66C /* AppDelegate.m in Sources */,
+				28E0986D1E88AE8600B4D66C /* NSString+MailFilePath.m in Sources */,
 				28E098671E88A26E00B4D66C /* AZMainVC.m in Sources */,
 				28E0982B1E88A15600B4D66C /* main.m in Sources */,
 			);
@@ -457,6 +656,7 @@
 		};
 		28E098541E88A15600B4D66C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0A1A620A7265DFDEB74637 /* Pods-AZEmailCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AZEmailCode/Info.plist;
@@ -468,6 +668,7 @@
 		};
 		28E098551E88A15600B4D66C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9030E4F8A7A5A6826821F418 /* Pods-AZEmailCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AZEmailCode/Info.plist;
@@ -479,6 +680,7 @@
 		};
 		28E098571E88A15600B4D66C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F0D4DC7E54692E26750006 /* Pods-AZEmailCodeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AZEmailCodeTests/Info.plist;
@@ -491,6 +693,7 @@
 		};
 		28E098581E88A15600B4D66C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE9F47A9500CC1826C7EC9C /* Pods-AZEmailCodeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AZEmailCodeTests/Info.plist;
@@ -503,6 +706,7 @@
 		};
 		28E0985A1E88A15600B4D66C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D948256E44D8A2CDA5D636D /* Pods-AZEmailCodeUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AZEmailCodeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -514,6 +718,7 @@
 		};
 		28E0985B1E88A15600B4D66C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44963B8F6FF83AC6D0AF18A /* Pods-AZEmailCodeUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AZEmailCodeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -542,6 +747,7 @@
 				28E098551E88A15600B4D66C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28E098561E88A15600B4D66C /* Build configuration list for PBXNativeTarget "AZEmailCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +756,7 @@
 				28E098581E88A15600B4D66C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28E098591E88A15600B4D66C /* Build configuration list for PBXNativeTarget "AZEmailCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +765,7 @@
 				28E0985B1E88A15600B4D66C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
