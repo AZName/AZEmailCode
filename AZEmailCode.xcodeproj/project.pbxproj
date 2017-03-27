@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28E0982B1E88A15600B4D66C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0982A1E88A15600B4D66C /* main.m */; };
+		28E0982E1E88A15600B4D66C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0982D1E88A15600B4D66C /* AppDelegate.m */; };
+		28E098361E88A15600B4D66C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E098351E88A15600B4D66C /* Assets.xcassets */; };
+		28E098391E88A15600B4D66C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E098371E88A15600B4D66C /* LaunchScreen.storyboard */; };
+		28E098441E88A15600B4D66C /* AZEmailCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E098431E88A15600B4D66C /* AZEmailCodeTests.m */; };
+		28E0984F1E88A15600B4D66C /* AZEmailCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0984E1E88A15600B4D66C /* AZEmailCodeUITests.m */; };
+		28E098671E88A26E00B4D66C /* AZMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E098661E88A26E00B4D66C /* AZMainVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28E098401E88A15600B4D66C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E0981E1E88A15600B4D66C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28E098251E88A15600B4D66C;
+			remoteInfo = AZEmailCode;
+		};
+		28E0984B1E88A15600B4D66C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E0981E1E88A15600B4D66C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28E098251E88A15600B4D66C;
+			remoteInfo = AZEmailCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28E098261E88A15600B4D66C /* AZEmailCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZEmailCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E0982A1E88A15600B4D66C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28E0982C1E88A15600B4D66C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28E0982D1E88A15600B4D66C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28E098351E88A15600B4D66C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
+		28E098381E88A15600B4D66C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28E0983A1E88A15600B4D66C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
+		28E0983F1E88A15600B4D66C /* AZEmailCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZEmailCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E098431E88A15600B4D66C /* AZEmailCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZEmailCodeTests.m; sourceTree = "<group>"; };
+		28E098451E88A15600B4D66C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E0984A1E88A15600B4D66C /* AZEmailCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZEmailCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E0984E1E88A15600B4D66C /* AZEmailCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZEmailCodeUITests.m; sourceTree = "<group>"; };
+		28E098501E88A15600B4D66C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E098651E88A26E00B4D66C /* AZMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZMainVC.h; sourceTree = "<group>"; };
+		28E098661E88A26E00B4D66C /* AZMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZMainVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28E098231E88A15600B4D66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E0983C1E88A15600B4D66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E098471E88A15600B4D66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28E0981D1E88A15600B4D66C = {
+			isa = PBXGroup;
+			children = (
+				28E098281E88A15600B4D66C /* AZEmailCode */,
+				28E098421E88A15600B4D66C /* AZEmailCodeTests */,
+				28E0984D1E88A15600B4D66C /* AZEmailCodeUITests */,
+				28E098271E88A15600B4D66C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28E098271E88A15600B4D66C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28E098261E88A15600B4D66C /* AZEmailCode.app */,
+				28E0983F1E88A15600B4D66C /* AZEmailCodeTests.xctest */,
+				28E0984A1E88A15600B4D66C /* AZEmailCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28E098281E88A15600B4D66C /* AZEmailCode */ = {
+			isa = PBXGroup;
+			children = (
+				28E0982C1E88A15600B4D66C /* AppDelegate.h */,
+				28E0982D1E88A15600B4D66C /* AppDelegate.m */,
+				28E0985C1E88A1E100B4D66C /* Class */,
+				28E098291E88A15600B4D66C /* Supporting Files */,
+			);
+			path = AZEmailCode;
+			sourceTree = "<group>";
+		};
+		28E098291E88A15600B4D66C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28E0982A1E88A15600B4D66C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28E098421E88A15600B4D66C /* AZEmailCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				28E098431E88A15600B4D66C /* AZEmailCodeTests.m */,
+				28E098451E88A15600B4D66C /* Info.plist */,
+			);
+			path = AZEmailCodeTests;
+			sourceTree = "<group>";
+		};
+		28E0984D1E88A15600B4D66C /* AZEmailCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28E0984E1E88A15600B4D66C /* AZEmailCodeUITests.m */,
+				28E098501E88A15600B4D66C /* Info.plist */,
+			);
+			path = AZEmailCodeUITests;
+			sourceTree = "<group>";
+		};
+		28E0985C1E88A1E100B4D66C /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				28E0985D1E88A1E100B4D66C /* HeaderFile */,
+				28E0985E1E88A1E100B4D66C /* Login */,
+				28E0985F1E88A1E100B4D66C /* Main */,
+				28E098601E88A1E100B4D66C /* Other */,
+				28E098611E88A1E100B4D66C /* Tool */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		28E0985D1E88A1E100B4D66C /* HeaderFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HeaderFile;
+			sourceTree = "<group>";
+		};
+		28E0985E1E88A1E100B4D66C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		28E0985F1E88A1E100B4D66C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				28E098651E88A26E00B4D66C /* AZMainVC.h */,
+				28E098661E88A26E00B4D66C /* AZMainVC.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		28E098601E88A1E100B4D66C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				28E098351E88A15600B4D66C /* Assets.xcassets */,
+				28E098371E88A15600B4D66C /* LaunchScreen.storyboard */,
+				28E0983A1E88A15600B4D66C /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		28E098611E88A1E100B4D66C /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28E098251E88A15600B4D66C /* AZEmailCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E098531E88A15600B4D66C /* Build configuration list for PBXNativeTarget "AZEmailCode" */;
+			buildPhases = (
+				28E098221E88A15600B4D66C /* Sources */,
+				28E098231E88A15600B4D66C /* Frameworks */,
+				28E098241E88A15600B4D66C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZEmailCode;
+			productName = AZEmailCode;
+			productReference = 28E098261E88A15600B4D66C /* AZEmailCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28E0983E1E88A15600B4D66C /* AZEmailCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E098561E88A15600B4D66C /* Build configuration list for PBXNativeTarget "AZEmailCodeTests" */;
+			buildPhases = (
+				28E0983B1E88A15600B4D66C /* Sources */,
+				28E0983C1E88A15600B4D66C /* Frameworks */,
+				28E0983D1E88A15600B4D66C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28E098411E88A15600B4D66C /* PBXTargetDependency */,
+			);
+			name = AZEmailCodeTests;
+			productName = AZEmailCodeTests;
+			productReference = 28E0983F1E88A15600B4D66C /* AZEmailCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28E098491E88A15600B4D66C /* AZEmailCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E098591E88A15600B4D66C /* Build configuration list for PBXNativeTarget "AZEmailCodeUITests" */;
+			buildPhases = (
+				28E098461E88A15600B4D66C /* Sources */,
+				28E098471E88A15600B4D66C /* Frameworks */,
+				28E098481E88A15600B4D66C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28E0984C1E88A15600B4D66C /* PBXTargetDependency */,
+			);
+			name = AZEmailCodeUITests;
+			productName = AZEmailCodeUITests;
+			productReference = 28E0984A1E88A15600B4D66C /* AZEmailCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28E0981E1E88A15600B4D66C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "徐振";
+				TargetAttributes = {
+					28E098251E88A15600B4D66C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					28E0983E1E88A15600B4D66C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28E098251E88A15600B4D66C;
+					};
+					28E098491E88A15600B4D66C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28E098251E88A15600B4D66C;
+					};
+				};
+			};
+			buildConfigurationList = 28E098211E88A15600B4D66C /* Build configuration list for PBXProject "AZEmailCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28E0981D1E88A15600B4D66C;
+			productRefGroup = 28E098271E88A15600B4D66C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28E098251E88A15600B4D66C /* AZEmailCode */,
+				28E0983E1E88A15600B4D66C /* AZEmailCodeTests */,
+				28E098491E88A15600B4D66C /* AZEmailCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28E098241E88A15600B4D66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E098391E88A15600B4D66C /* LaunchScreen.storyboard in Resources */,
+				28E098361E88A15600B4D66C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E0983D1E88A15600B4D66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E098481E88A15600B4D66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28E098221E88A15600B4D66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E0982E1E88A15600B4D66C /* AppDelegate.m in Sources */,
+				28E098671E88A26E00B4D66C /* AZMainVC.m in Sources */,
+				28E0982B1E88A15600B4D66C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E0983B1E88A15600B4D66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E098441E88A15600B4D66C /* AZEmailCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28E098461E88A15600B4D66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E0984F1E88A15600B4D66C /* AZEmailCodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28E098411E88A15600B4D66C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28E098251E88A15600B4D66C /* AZEmailCode */;
+			targetProxy = 28E098401E88A15600B4D66C /* PBXContainerItemProxy */;
+		};
+		28E0984C1E88A15600B4D66C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28E098251E88A15600B4D66C /* AZEmailCode */;
+			targetProxy = 28E0984B1E88A15600B4D66C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28E098371E88A15600B4D66C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28E098381E88A15600B4D66C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28E098511E88A15600B4D66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28E098521E88A15600B4D66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28E098541E88A15600B4D66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AZEmailCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZEmailCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28E098551E88A15600B4D66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AZEmailCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZEmailCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28E098571E88A15600B4D66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AZEmailCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZEmailCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZEmailCode.app/AZEmailCode";
+			};
+			name = Debug;
+		};
+		28E098581E88A15600B4D66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AZEmailCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZEmailCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZEmailCode.app/AZEmailCode";
+			};
+			name = Release;
+		};
+		28E0985A1E88A15600B4D66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AZEmailCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZEmailCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AZEmailCode;
+			};
+			name = Debug;
+		};
+		28E0985B1E88A15600B4D66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AZEmailCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZEmailCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AZEmailCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28E098211E88A15600B4D66C /* Build configuration list for PBXProject "AZEmailCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E098511E88A15600B4D66C /* Debug */,
+				28E098521E88A15600B4D66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E098531E88A15600B4D66C /* Build configuration list for PBXNativeTarget "AZEmailCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E098541E88A15600B4D66C /* Debug */,
+				28E098551E88A15600B4D66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28E098561E88A15600B4D66C /* Build configuration list for PBXNativeTarget "AZEmailCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E098571E88A15600B4D66C /* Debug */,
+				28E098581E88A15600B4D66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28E098591E88A15600B4D66C /* Build configuration list for PBXNativeTarget "AZEmailCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E0985A1E88A15600B4D66C /* Debug */,
+				28E0985B1E88A15600B4D66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28E0981E1E88A15600B4D66C /* Project object */;
+}
