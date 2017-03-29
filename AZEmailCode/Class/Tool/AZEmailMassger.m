@@ -30,7 +30,9 @@
     });
     return massage;
 }
-//登录邮箱
+
+
+#pragma mark ---登录邮箱
 
 - (void)loginWithUserName:(NSString *)name
                  password:(NSString *)password
@@ -98,6 +100,22 @@
 }
 
 
+#pragma mark ---- 解析邮件
+
+
+- (void)parsingMessageWith:(MCOIMAPMessage *)message
+                    folder:(NSString *)folder
+                completion:(emailContent)completion {
+    
+    MCOIMAPFetchParsedContentOperation *contentOperation =
+    [self.imapSession fetchParsedMessageOperationWithFolder:folder uid:message.uid];
+    [contentOperation start:^(NSError * _Nullable error, MCOMessageParser * _Nullable parser) {
+        NSLog(@"%@",parser.attachments);
+        AZEmailContentModel *model = [[AZEmailContentModel alloc]init];
+        
+    }];
+    
+}
 
 #pragma mark -  获取所有文件夹 收件箱 已发邮件 草稿箱 已删除 垃圾邮件
 - (void)getMailFolderWith:(void (^)(NSError *error, NSArray *folderArray))completion {

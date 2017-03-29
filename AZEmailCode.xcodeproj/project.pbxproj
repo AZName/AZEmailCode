@@ -17,6 +17,7 @@
 		28E098671E88A26E00B4D66C /* AZMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E098661E88A26E00B4D66C /* AZMainVC.m */; };
 		28E0986A1E88AE0600B4D66C /* AZEmailMassger.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E098691E88AE0600B4D66C /* AZEmailMassger.m */; };
 		28E0986D1E88AE8600B4D66C /* NSString+MailFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0986C1E88AE8600B4D66C /* NSString+MailFilePath.m */; };
+		28E098701E88B70800B4D66C /* AZEmailContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0986F1E88B70800B4D66C /* AZEmailContentModel.m */; };
 		2E5C2908E608D4F1D62CEE6F /* Pods_AZEmailCodeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3701CF90873D5BF5B1229D3C /* Pods_AZEmailCodeUITests.framework */; };
 		65793A49FF374F159283D7A8 /* Pods_AZEmailCodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB32C949B258F202589D866A /* Pods_AZEmailCodeTests.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,8 @@
 		28E098691E88AE0600B4D66C /* AZEmailMassger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZEmailMassger.m; sourceTree = "<group>"; };
 		28E0986B1E88AE8600B4D66C /* NSString+MailFilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MailFilePath.h"; sourceTree = "<group>"; };
 		28E0986C1E88AE8600B4D66C /* NSString+MailFilePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MailFilePath.m"; sourceTree = "<group>"; };
+		28E0986E1E88B70800B4D66C /* AZEmailContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZEmailContentModel.h; sourceTree = "<group>"; };
+		28E0986F1E88B70800B4D66C /* AZEmailContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZEmailContentModel.m; sourceTree = "<group>"; };
 		34F0D4DC7E54692E26750006 /* Pods-AZEmailCodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZEmailCodeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZEmailCodeTests/Pods-AZEmailCodeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3701CF90873D5BF5B1229D3C /* Pods_AZEmailCodeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZEmailCodeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D948256E44D8A2CDA5D636D /* Pods-AZEmailCodeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZEmailCodeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZEmailCodeUITests/Pods-AZEmailCodeUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -208,6 +211,8 @@
 				28E098691E88AE0600B4D66C /* AZEmailMassger.m */,
 				28E0986B1E88AE8600B4D66C /* NSString+MailFilePath.h */,
 				28E0986C1E88AE8600B4D66C /* NSString+MailFilePath.m */,
+				28E0986E1E88B70800B4D66C /* AZEmailContentModel.h */,
+				28E0986F1E88B70800B4D66C /* AZEmailContentModel.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -519,6 +524,7 @@
 				28E0986D1E88AE8600B4D66C /* NSString+MailFilePath.m in Sources */,
 				28E098671E88A26E00B4D66C /* AZMainVC.m in Sources */,
 				28E0982B1E88A15600B4D66C /* main.m in Sources */,
+				28E098701E88B70800B4D66C /* AZEmailContentModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <MailCore/MailCore.h>
+#import "AZEmailContentModel.h"
+
+typedef void (^emailContent)(NSError *error, AZEmailContentModel *model);
 
 typedef void(^error)(NSError *error);
 
@@ -53,6 +56,16 @@ typedef void (^completion) (NSError *error, NSArray <MCOIMAPMessage *> * message
                      ofFolder:(NSString *)folder
                    compention:(completion)comletion;
 
-- (void)parsingMessageWith:(MCOIMAPMessage *)message;
+/**
+ 解析消息数据
+ 
+ @param message  消息对象
+ @param folder 文件名字
+ @param completion 返回解析的数据
+ */
+
+- (void)parsingMessageWith:(MCOIMAPMessage *)message
+                    folder:(NSString *)folder
+                completion:(emailContent)completion;
 
 @end

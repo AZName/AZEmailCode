@@ -24,18 +24,20 @@
     }];
     
     [[AZEmailMassger standardMailMassage] getMailFolderWith:^(NSError *error, NSArray *folderArray) {
-        NSLog(@"%@",folderArray);
+        
     }];
     
-    [[AZEmailMassger standardMailMassage] loadListWithPageCount:0 ofFolder:@"INBOX" compention:^(NSError *error, NSArray<MCOIMAPMessage *> *messageArray) {
+    [[AZEmailMassger standardMailMassage] loadListWithPageCount:1 ofFolder:@"INBOX" compention:^(NSError *error, NSArray<MCOIMAPMessage *> *messageArray) {
         NSLog(@"-----%ld",messageArray.count);
         
         MCOIMAPMessage * message = messageArray.firstObject;
         
-        
+        [[AZEmailMassger standardMailMassage] parsingMessageWith:message folder:@"INBOX" completion:^(NSError *error, AZEmailContentModel *model) {
+            
+        }];
         
     }];
-
+    
     
 
 }

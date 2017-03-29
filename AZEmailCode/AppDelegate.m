@@ -53,4 +53,13 @@
 }
 
 
+- (UIWindow *)window {
+    if (!_window) {
+        _window = [[UIWindow alloc]init];
+        _window.backgroundColor =[UIColor  whiteColor];
+        _window.frame = [[UIScreen mainScreen]bounds];
+    }
+    return _window;
+}
+
 @end
