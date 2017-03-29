@@ -33,12 +33,11 @@
         MCOIMAPMessage * message = messageArray.firstObject;
         
         [[AZEmailMassger standardMailMassage] parsingMessageWith:message folder:@"INBOX" completion:^(NSError *error, AZEmailContentModel *model) {
-            
+            NSLog(@"%@",model.toArray);
+            NSLog(@"%@",model.fromModel.disPlayName);
         }];
         
     }];
-    
-    
 
 }
 
@@ -47,14 +46,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

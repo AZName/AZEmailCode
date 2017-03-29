@@ -7,25 +7,56 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "AZContactModel.h"
 @interface AZEmailContentModel : NSObject
 
-
-//@property (nonatomic, copy)NSArray *
 /**
  附件
  */
 @property (nonatomic, copy)NSArray *attachments;
 
+/**
+ 内容
+ */
+@property (nonatomic, copy)NSString *bodyStr;
 
-//@property (nonatomic, copy)NSArray *attachments;
+/**
+ 主题
+ */
+@property (nonatomic, copy)NSString *subjectStr;
 
-//@property (nonatomic, copy)NSArray *attachments;
-//
-//@property (nonatomic, copy)NSArray *attachments;
-//
-//@property (nonatomic, copy)NSArray *attachments;
-//
-//@property (nonatomic, copy)NSArray *attachments;
+/**
+ 时间
+ */
+@property (nonatomic, copy)NSString *date;
+
+/**
+  id
+ */
+@property (nonatomic, copy)NSString *uid;
+
+/**
+ 回复
+ */
+@property (nonatomic, copy)NSString *mailBox;
+/**
+ 发件人
+ */
+@property (nonatomic, copy)AZContactModel *fromModel;
+
+/**
+ 收件人
+ */
+@property (nonatomic, copy)NSArray *toArray;
+
+/**
+ 抄送
+ */
+@property (nonatomic, copy)NSArray *ccArray;
+
+/**
+ 密送
+ */
+@property (nonatomic, copy)NSArray *bccArray;
 
 @end

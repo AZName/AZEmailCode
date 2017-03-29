@@ -93,6 +93,7 @@
                                                                                                            numbers:numbers];
         
         [fetchOperation start:^(NSError *error, NSArray *messages, MCOIndexSet *vanishedMessages) {
+            
             comletion(error,messages);
         }];
     }];
@@ -110,8 +111,42 @@
     MCOIMAPFetchParsedContentOperation *contentOperation =
     [self.imapSession fetchParsedMessageOperationWithFolder:folder uid:message.uid];
     [contentOperation start:^(NSError * _Nullable error, MCOMessageParser * _Nullable parser) {
-        NSLog(@"%@",parser.attachments);
+        
         AZEmailContentModel *model = [[AZEmailContentModel alloc]init];
+        model.bodyStr = [parser htmlBodyRendering]; //正文
+        model.subjectStr = parser.header.subject;//主题
+        model.attachments = parser.attachments;//附件
+        model.fromModel.disPlayName = parser.header.from.displayName;//发件人名称
+        model.fromModel.mailbox = parser.header.from.mailbox;//发件人地址
+        NSMutableArray* addressToArray = [NSMutableArray array];//收件人
+        for (MCOAddress* address in parser.header.to) {
+            AZContactModel *conModel = [[AZContactModel alloc]init];
+            conModel.disPlayName = address.displayName;
+            conModel.mailbox = address.mailbox;
+            [addressToArray addObject:conModel];
+        }
+        model.toArray = addressToArray;
+        
+        NSMutableArray* ccArray = [NSMutableArray array];//抄送
+        
+        for (MCOAddress* address in parser.header.to) {
+            AZContactModel *conModel = [[AZContactModel alloc]init];
+            conModel.disPlayName = address.displayName;
+            conModel.mailbox = address.mailbox;
+            [ccArray addObject:conModel];
+        }
+        model.ccArray = ccArray;
+        NSMutableArray* bccArray = [NSMutableArray array];//密送
+        for (MCOAddress* address in parser.header.to) {
+            AZContactModel *conModel = [[AZContactModel alloc]init];
+            conModel.disPlayName = address.displayName;
+            conModel.mailbox = address.mailbox;
+            [bccArray addObject:conModel];
+        }
+
+        model.bccArray = bccArray;
+        
+        completion(error,model);
         
     }];
     

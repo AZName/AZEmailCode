@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		145E454B3B858426DE4DFE32 /* Pods_AZEmailCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6D578E66197A3F91CC1894 /* Pods_AZEmailCode.framework */; };
+		28DDD2E31E8BB9BE00A9BB23 /* AZContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DDD2E21E8BB9BE00A9BB23 /* AZContactModel.m */; };
 		28E0982B1E88A15600B4D66C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0982A1E88A15600B4D66C /* main.m */; };
 		28E0982E1E88A15600B4D66C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E0982D1E88A15600B4D66C /* AppDelegate.m */; };
 		28E098361E88A15600B4D66C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E098351E88A15600B4D66C /* Assets.xcassets */; };
@@ -41,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		0E6D578E66197A3F91CC1894 /* Pods_AZEmailCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZEmailCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DDD2E11E8BB9BE00A9BB23 /* AZContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZContactModel.h; sourceTree = "<group>"; };
+		28DDD2E21E8BB9BE00A9BB23 /* AZContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZContactModel.m; sourceTree = "<group>"; };
 		28E098261E88A15600B4D66C /* AZEmailCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZEmailCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E0982A1E88A15600B4D66C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28E0982C1E88A15600B4D66C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -213,6 +216,8 @@
 				28E0986C1E88AE8600B4D66C /* NSString+MailFilePath.m */,
 				28E0986E1E88B70800B4D66C /* AZEmailContentModel.h */,
 				28E0986F1E88B70800B4D66C /* AZEmailContentModel.m */,
+				28DDD2E11E8BB9BE00A9BB23 /* AZContactModel.h */,
+				28DDD2E21E8BB9BE00A9BB23 /* AZContactModel.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -519,6 +524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28DDD2E31E8BB9BE00A9BB23 /* AZContactModel.m in Sources */,
 				28E0986A1E88AE0600B4D66C /* AZEmailMassger.m in Sources */,
 				28E0982E1E88A15600B4D66C /* AppDelegate.m in Sources */,
 				28E0986D1E88AE8600B4D66C /* NSString+MailFilePath.m in Sources */,

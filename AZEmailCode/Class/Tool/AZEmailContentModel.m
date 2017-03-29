@@ -10,4 +10,11 @@
 
 @implementation AZEmailContentModel
 
+- (id)init {
+    if (self = [super init]) {
+        _fromModel =  [[AZContactModel alloc]init];
+    }
+    return self;
+}
+
 @end
