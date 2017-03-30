@@ -181,10 +181,27 @@
         completion(error,array);
     }
     
-    //    MCOIMAPMessageRenderingOperation
-    //    MCOIMAPFetchContentOperation
+//        MCOIMAPMessageRenderingOperation
+//        MCOIMAPFetchContentOperation
 }
 
+-(void)sendEmail:(NSString*)hosName
+            port:(int)port
+        userName:(NSString*)userName
+        password:(NSString*)password
+ fromDisplayName:(NSString*)fromDisplayName
+      fromMaiBox:(NSString*)fromMaiBox
+         toArray:(NSArray*)toArray
+         ccArray:(NSArray*)ccArray
+        bccArray:(NSArray*)bccArray
+         subject:(NSString*)subject
+         content:(NSString*)content
+            file:(NSArray*)fileArray
+     resultBlock:(void(^)(NSError* error))resultBlock {
+    
+    
+    
+}
 
 
 

@@ -33,8 +33,8 @@
         MCOIMAPMessage * message = messageArray.firstObject;
         
         [[AZEmailMassger standardMailMassage] parsingMessageWith:message folder:@"INBOX" completion:^(NSError *error, AZEmailContentModel *model) {
-            NSLog(@"%@",model.toArray);
-            NSLog(@"%@",model.fromModel.disPlayName);
+            //NSLog(@"%@",model.toArray);
+            //NSLog(@"%@",model.fromModel.disPlayName);
         }];
         
     }];
