@@ -68,4 +68,13 @@ typedef void (^completion) (NSError *error, NSArray <MCOIMAPMessage *> * message
                     folder:(NSString *)folder
                 completion:(emailContent)completion;
 
+/**
+ 发送邮件
+
+ @param content 邮件内容
+ @param resultBlock 发送结果
+ */
+-(void)sendEmail:(AZEmailContentModel*)content
+     resultBlock:(void(^)(NSError* error))resultBlock;
+
 @end

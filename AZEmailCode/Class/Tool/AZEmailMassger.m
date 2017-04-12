@@ -16,6 +16,8 @@
 
 @property (nonatomic, strong) MCOIMAPFetchMessagesOperation *imapMessagesFetchOp;
 
+@property (nonatomic, strong) MCOSMTPSession *smtpSession;
+
 @end
 
 @implementation AZEmailMassger
@@ -181,22 +183,9 @@
         completion(error,array);
     }
     
-//        MCOIMAPMessageRenderingOperation
-//        MCOIMAPFetchContentOperation
 }
 
--(void)sendEmail:(NSString*)hosName
-            port:(int)port
-        userName:(NSString*)userName
-        password:(NSString*)password
- fromDisplayName:(NSString*)fromDisplayName
-      fromMaiBox:(NSString*)fromMaiBox
-         toArray:(NSArray*)toArray
-         ccArray:(NSArray*)ccArray
-        bccArray:(NSArray*)bccArray
-         subject:(NSString*)subject
-         content:(NSString*)content
-            file:(NSArray*)fileArray
+-(void)sendEmail:(AZEmailContentModel*)content
      resultBlock:(void(^)(NSError* error))resultBlock {
     
     
@@ -204,6 +193,12 @@
 }
 
 
+- (MCOSMTPSession *)smtpSession {
+    if (!_smtpSession) {
+        _smtpSession = [[MCOSMTPSession alloc]init];
+    }
+    return _smtpSession;
+}
 
 
 - (MCOIMAPSession *) imapSession {
