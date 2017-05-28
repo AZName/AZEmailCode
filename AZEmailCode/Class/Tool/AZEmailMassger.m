@@ -185,6 +185,8 @@
     
 }
 
+#pragma mark ---发送邮件
+
 -(void)sendEmail:(AZEmailContentModel*)content
      resultBlock:(void(^)(NSError* error))resultBlock {
     
@@ -204,7 +206,6 @@
 - (MCOIMAPSession *) imapSession {
     if (!_imapSession) {
         _imapSession = [[MCOIMAPSession alloc]init];
-        
     }
     return _imapSession;
 }
